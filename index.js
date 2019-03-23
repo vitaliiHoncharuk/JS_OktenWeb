@@ -124,7 +124,7 @@ do {
                 "            если имеет значение '2' – 'февраль' и так далее.");
             {
                 do {
-                    let num = parseInt(prompt('Task #4.Input value in range 0-12 (value will be rounded if needed) '));
+                    let num = parseInt(prompt('Task #4.Input value in range 1-12 (value will be rounded if needed) '));
                     if (num < 1 || num > 12) {
                         inputError();
                     } else {
@@ -154,6 +154,41 @@ do {
                 "        8. вивести масив в зворотньому порядку.\n" +
                 "        9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)");
             {
+                let familyPersonFather = 
+                {
+                    name: "Oleksiy",
+                    surname: "Honcharuk",
+                    height: 177,
+                    age : 42,
+                    weight : 90,
+                    fullname : function(){
+                        return this.name +" "+ this.surname;
+                    }
+                }
+                let familyPersonMother = 
+                {
+                     name: "Tetyana",
+                     surname: "Honcharuk",
+                     height: 162,
+                     age : 42,
+                     weight : 55,
+                        fullname : function(){
+                            return this.name +" "+ this.surname;
+                        }
+                }
+                
+                let familyPersonSister= 
+                {
+                    name: "Olena",
+                    surname: "Honcharuk",
+                    height: 155,
+                    age : 13,
+                    weight : 40,
+                    fullname : function(){
+                        return this.name +" "+ this.surname;
+                    }
+                }
+
                 let arr = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
                 userInput(arr);
                 hr();
