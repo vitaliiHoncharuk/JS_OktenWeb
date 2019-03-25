@@ -76,6 +76,32 @@
 // 	year :2019
 // },];
 
+// class owner {
+//     constructor(name,age,experience){
+//         this.name = name;
+//         this.age = age;
+//         this.experience = experience;
+//     }
+// }
+//
+// class car {
+//     constructor(mark,engine,price,year){
+//         this.owner = new owner();
+//         this.mark = mark;
+//         this.engine = engine;
+//         this.price = price;
+//         this.year = year;
+//     }
+// }
+//
+// let first = new car("Porshe",3.2,200100,2019);
+// let petya = new owner("Petya",29,3);
+// first.owner=petya;
+//
+//
+//
+// console.log(first);
+
 // let ownerNames = ["Katya","Tanya","Olena","Nastya","Galya","Olya","Alina",];
 
 // for(let i = 0; i < cars.length ;i+=2)
@@ -89,6 +115,10 @@
 // 	cars[i].owner.Name = ownerNames[i];
 // 	console.log(` now owners of ${i} car is ${cars[i].owner.Name}`);
 // }
+
+
+
+
 // console.log("_____________________________________________________________");
 
 
@@ -153,11 +183,16 @@
 // }
 
 
+
+
+
+
+
 let arr= new Array(50);
     // 1. заповнити його 50 парними числами за допомоги циклу
 for(let i = 0; i < arr.length; i++)
 {
-    arr[i] = generateOddNumber(1,500);
+    arr[i] = generateNumber(1,500,"odd");
 }
 taskNum(1);
 console.log("Array, filled with Odd numbers using random");
@@ -167,7 +202,7 @@ console.log(arr);
 
 for(let i = 0; i < arr.length; i++)
 {
-    arr[i] = generateEvenNumber(1,500);
+    arr[i] = generateNumber(1,500,"even");
 }
 taskNum(2);
 console.log("Array, filled with even numbers using random : ");
@@ -197,7 +232,7 @@ taskNum(5);
 console.log("Each 3-rd element of Array, if the number is odd : ")
 
 for (let i = 2; i < arr.length;i+=3){
-    if ((arr[i] % 2) == 0)
+    if ((arr[i] % 2) === 0)
     console.log(arr[i]);
 }
 taskNum(6);
@@ -205,9 +240,9 @@ console.log("Each 3-rd element of Array, if the number is odd and give this numb
 // вывести на консоль  каждый третий елемент
 // но при условии что он имеет парное значение и
 // записать их в другой массив.
-let NewArr = new Array();
+let NewArr = [];
 for (let i = 2; i < arr.length;i+=3){
-    if ((arr[i] % 2) == 0)
+    if ((arr[i] % 2) === 0)
         NewArr.push(arr[i]);
 }
 console.log("New array : ")
@@ -217,7 +252,7 @@ taskNum(7);
 console.log("Вывести каждый елемент массива у которого соседний с права элемент - парный");
 console.log(arr);
 for (let i = 0; i < arr.length;i++){
-    if ((arr[i+1] % 2) == 0) {
+    if ((arr[i+1] % 2) === 0) {
         console.log(`Сусід справа - ${arr[i + 1]}, сам елемент = ${arr[i]}`);
     }
 }
@@ -230,7 +265,7 @@ for (let i = 0; i < purchasePrices.length; i++){
     sum+=purchasePrices[i];
 }
 avgPrice = (sum / purchasePrices.length).toFixed(2);
-console.log(`The sum of all purchases = ${sum}, amount of products =${purchasePrices.length},and its 
+console.log(`The sum of all purchases = ${sum}, amount of products =${purchasePrices.length},and its
 avarage price = ${avgPrice}`);
 
 taskNum(9);
@@ -238,7 +273,7 @@ console.log("створити масив з рандомними значенн�
 {
     let numberOfArrItems = 56;
     let Arr = new Array(numberOfArrItems);
-    let myArr = new Array();
+    let myArr = [];
     for (let i = 0; i < Arr.length; i++) {
         arr[i] = generateNumber(1, 999);
         myArr.push(arr[i]);
@@ -264,7 +299,7 @@ taskNum(10);
         type : "Killer",
         price : 100500
     }
-    let myArr = new Array();
+    let myArr = [];
     let arr = ["qweqwe",123,555,obj ,"12qewas", 333];
     for (let i = 0;i <arr.length; i++){
         if (typeof arr[i] =="number" ) myArr.push(arr[i]);
@@ -283,22 +318,21 @@ function taskNum(number) {
 }
 
 
-function generateNumber(min,max) {
-    let num = Math.floor(Math.random() * (max - min)) + min;
-    return num;
-}
+function generateNumber(min,max,numType) {
+    let num = Math.floor(Math.random() * (max - min));
 
-function generateEvenNumber(min,max) {
-    let num = Math.floor(Math.random() * (max - min)) + min;
-    if ((num % 2) == 0) {
-        return num + 1;
-    } else {
+    if (numType === "even") {
+        num +=  min;
+        if ((num % 2) === 0) {
+            return num + 1;
+        } else {
+            return num;
+        }
+    }
+else if(numType === "odd"){
+        num *= 2;
         return num;
     }
-}
-
-
-function generateOddNumber(min,max) {
-    let num = (Math.floor(Math.random() * (max - min)))*2;
+else
     return num;
 }
