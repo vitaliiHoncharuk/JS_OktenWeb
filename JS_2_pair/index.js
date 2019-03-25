@@ -319,7 +319,7 @@ function taskNum(number) {
 
 
 function generateNumber(min,max,numType) {
-    let num = Math.floor(Math.random() * (max - min));
+    let num = Math.floor(Math.random() * (max - min)+min);
 
     if (numType === "even") {
         num +=  min;
