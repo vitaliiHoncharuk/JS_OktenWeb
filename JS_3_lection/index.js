@@ -130,3 +130,53 @@ function taskNum(taskNumber) {
 function task(text) {
     console.log("Завдання : " + text)
 }
+
+
+function task(text) {
+    console.log("Завдання : " + text)
+}
+
+
+
+
+function bubbleSort(arr) {
+    for (let i = 0; i < arr.length ; i++) {
+        for(let j = 0 ; j < arr.length - i - 1; j++){
+            if (arr[j] > arr[j + 1]) {
+                let temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+    return arr;
+}
+
+let arr3=[5,4,3,12,321,320,55,1,33];
+console.log(bubbleSort(arr3));
+
+
+
+
+
+class owner {
+    constructor(name,age,experience){
+        this.name = name;
+        this.age = age;
+        this.experience = experience;
+    }
+}
+
+class car extends  owner{
+    constructor(mark,engine,price,year) {
+        super();
+        this.mark = mark;
+        this.engine = engine;
+        this.price = price;
+        this.year = year;
+    }
+}
+
+let first = new car("Porshe",3.2,200100,2019);
+let petya = new owner("Petya",29,3);
+
