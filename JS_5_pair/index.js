@@ -28,34 +28,105 @@ const transport = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van',
 
 
 
-//Task1
-
-console.log(inventors);
-
-console.log(inventors.filter(function (elem) {
-    return (elem.year > 1499 && elem.year < 1600);
-}));
-
-
-//Task 2
-
-let k = inventors.filter(function (el) {
-    return (el.year > 1799 && el.year < 1900);
-});
-
-
-console.log(k.map(function (elem) {
-    return elem.first;
-}));
+// //Task1
+// // Вивести масив винахідників які народились в 1500-х роках.
+// console.log(inventors);
+//
+// console.log(inventors.filter(function (elem) {
+//     return (elem.year > 1499 && elem.year < 1600);
+// }));
+//
+//
+// //Task 2
+// // Вивести масив тільки імен винахідників які народились в 1800-х роках
+// let k = inventors.filter(function (el) {
+//     return (el.year > 1799 && el.year < 1900);
+// });
+//
+//
+// console.log(k.map(function (elem) {
+//     return elem.first;
+// }));
 
 //Task 3
+// // Вивести масив з імен та прізвищ винахідників (['Albert Einstein', ... ])
+// console.log(inventors.map(function (elem) {
+//     return elem.first + " "+ elem.last;
+// }));
 
-console.log(inventors.map(function (elem) {
-    return elem.first + " "+ elem.last;
-}));
 
-console.log(inventors.sort(function (a,b) {
-    let k = a.passed - a.year;
-    let j = b.passed - b.year;
-    return k - j;
-}));
+// Task4
+// Відсортувати винахідників за кількістю прожитих років
+// console.log(inventors.sort(function (a,b) {
+//     let k = a.passed - a.year;
+//     let j = b.passed - b.year;
+//     return k - j;
+// }));
+
+
+//Task5
+// Відсортувати людей але тільки за прізвищем
+// console.log(inventors.sort(function (a, b) {
+//     return  a.last.localeCompare(b.last);
+// }));
+
+
+//Task6
+// Перевірити чи є хоча б один винахідник народжений в 1878, якщо так то функція повертає true якщо ні то false
+
+
+// Правильне рішення !
+// let k = inventors.some(function (el) {
+//     return (el.year === 1878);
+// });
+//
+// console.log(k);
+
+
+
+// let k = inventors.map(function (el) {
+//     return el.year;
+// });
+// console.log(k);
+//
+// console.log(k.includes(1879))
+//
+// ;
+
+
+
+
+//Task 7
+
+// Знайдіть суму років які прожили всі винахідники разом
+//
+// let k = inventors.map(function (el) {
+//     return el.passed - el.year;
+// });
+//
+// console.log(k);
+//
+//
+// console.log(k.reduce(function (sum, current) {
+//     return sum + current;
+// }, 0));
+//
+//
+//
+// let totalYears = inventors.reduce(function (total,current) {
+//     return total + (current.passed- current.year);
+// },0);
+//
+// console.log(totalYears);
+
+//Task 8
+// * Знайти суму кожного типу транспорту, які є в масиві
+//const transport = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck', 'pogostick'];
+
+let transportCount = transport.reduce(function (total,current,index,array) {
+
+    return 1;
+},0);
+console.log(transportCount);
+
+
