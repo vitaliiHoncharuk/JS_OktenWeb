@@ -14,7 +14,7 @@ const inventors = [
 ];
 const people = ['Beck, Glenn', 'Becker, Carl', 'Beckett, Samuel', 'Beddoes, Mick', 'Beecher, Henry', 'Beethoven, Ludwig', 'Begin, Menachem', 'Belloc, Hilaire', 'Bellow, Saul', 'Benchley, Robert', 'Benenson, Peter', 'Ben-Gurion, David', 'Benjamin, Walter', 'Benn, Tony', 'Bennington, Chester', 'Benson, Leana', 'Bent, Silas', 'Bentsen, Lloyd', 'Berger, Ric', 'Bergman, Ingmar', 'Berio, Luciano', 'Berle, Milton', 'Berlin, Irving', 'Berne, Eric', 'Bernhard, Sandra', 'Berra, Yogi', 'Berry, Halle', 'Berry, Wendell', 'Bethea, Erin', 'Bevan, Aneurin', 'Bevel, Ken', 'Biden, Joseph', 'Bierce, Ambrose', 'Biko, Steve', 'Billings, Josh', 'Biondo, Frank', 'Birrell, Augustine', 'Black Elk', 'Blair, Robert', 'Blair, Tony', 'Blake, William'];
 
-const transport = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck', 'pogostick'];
+//const transport = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck', 'pogostick'];
 
 //
 // Вивести масив винахідників які народились в 1500-х роках.
@@ -121,12 +121,28 @@ const transport = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van',
 
 //Task 8
 // * Знайти суму кожного типу транспорту, які є в масиві
-//const transport = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck', 'pogostick'];
-
-let transportCount = transport.reduce(function (total,current,index,array) {
-
-    return 1;
-},0);
-console.log(transportCount);
+const transport = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck', 'pogostick'];
 
 
+
+do {
+    let sortingTransport = transport.sort(function (a, b) {
+        return a.localeCompare(b);
+    });
+
+
+    let transportCount = sortingTransport.reduce(function (total, current, index, array) {
+        if (current === array[0]) {
+            total++;
+        }
+        return total;
+    }, 0);
+    transportCount > 1 ? console.log(`There are ${transportCount} ${sortingTransport[0]}'s`) : console.log(`There are ${transportCount} ${sortingTransport[0]}`);
+
+    // console.log(sortingTransport);
+
+    let newArr = sortingTransport.splice(0, transportCount);
+
+
+    // console.log(sortingTransport);
+}while (transport.length >0);
