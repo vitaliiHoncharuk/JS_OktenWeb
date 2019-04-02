@@ -12,7 +12,30 @@ const inventors = [
     { first: 'Lise', last: 'Meitner', year: 1878, passed: 1968 },
     { first: 'Hanna', last: 'Hammarström', year: 1829, passed: 1909 }
 ];
-const people = ['Beck, Glenn', 'Becker, Carl', 'Beckett, Samuel', 'Beddoes, Mick', 'Beecher, Henry', 'Beethoven, Ludwig', 'Begin, Menachem', 'Belloc, Hilaire', 'Bellow, Saul', 'Benchley, Robert', 'Benenson, Peter', 'Ben-Gurion, David', 'Benjamin, Walter', 'Benn, Tony', 'Bennington, Chester', 'Benson, Leana', 'Bent, Silas', 'Bentsen, Lloyd', 'Berger, Ric', 'Bergman, Ingmar', 'Berio, Luciano', 'Berle, Milton', 'Berlin, Irving', 'Berne, Eric', 'Bernhard, Sandra', 'Berra, Yogi', 'Berry, Halle', 'Berry, Wendell', 'Bethea, Erin', 'Bevan, Aneurin', 'Bevel, Ken', 'Biden, Joseph', 'Bierce, Ambrose', 'Biko, Steve', 'Billings, Josh', 'Biondo, Frank', 'Birrell, Augustine', 'Black Elk', 'Blair, Robert', 'Blair, Tony', 'Blake, William'];
+const people = ['Werlin, Wirving' ,'Beck, Glenn', 'Becker, Carl', 'Beckett, Samuel', 'Werlin, Wirving' ,
+    'Beddoes, Mick', 'Beecher, Henry', 'Beethoven, Ludwig', 'Begin, Menachem',
+    'Belloc, Hilaire', 'Bellow, Saul', 'Benchley, Robert', 'Benenson, Peter', 'Ben-Gurion, David',
+    'Benjamin, Walter', 'Benn, Tony', 'Bennington, Chester', 'Benson, Leana', 'Bent, Silas',
+    'Bentsen, Lloyd', 'Berger, Ric', 'Bergman, Ingmar', 'Berio, Luciano', 'Berle, Milton',
+    'Berlin, Irving', 'Berne, Eric', 'Bernhard, Sandra', 'Berra, Yogi', 'Berry, Halle', 'Berry, Wendell',
+    'Bethea, Erin', 'Bevan, Aneurin', 'Bevel, Ken', 'Biden, Joseph', 'Bierce, Ambrose',
+    'Biko, Steve', 'Billings, Josh', 'Biondo, Frank', 'Birrell, Augustine', 'Black Elk', 'Blair, Robert',
+    'Blair, Tony', 'Blake, William'];
+
+
+
+
+// const invSortSurname = people.sort(function(first, second) {
+//     const firstSurname = first.split(' , ')[0];
+//     const secondSurname = second.split(' , ')[0];
+//     if(firstSurname > secondSurname) {
+//         return 1;
+//     } else {
+//         return -1;
+//     }
+// });
+// console.log(invSortSurname);
+
 
 //const transport = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck', 'pogostick'];
 
@@ -121,28 +144,46 @@ const people = ['Beck, Glenn', 'Becker, Carl', 'Beckett, Samuel', 'Beddoes, Mick
 
 //Task 8
 // * Знайти суму кожного типу транспорту, які є в масиві
-const transport = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck', 'pogostick'];
+//const transport = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck', 'pogostick'];
+
+
+// solution @DidOstap
+// let t =transport.reduce(function (obj,item) {
+//
+//    if (!obj[item]){
+//        obj[item] = 1;
+//        return obj;
+//    }
+//    else {
+//        obj[item]++;
+//        return obj;
+//    }
+// },{});
+// console.log(t);
 
 
 
-do {
-    let sortingTransport = transport.sort(function (a, b) {
-        return a.localeCompare(b);
-    });
 
+//my solution
 
-    let transportCount = sortingTransport.reduce(function (total, current, index, array) {
-        if (current === array[0]) {
-            total++;
-        }
-        return total;
-    }, 0);
-    transportCount > 1 ? console.log(`There are ${transportCount} ${sortingTransport[0]}'s`) : console.log(`There are ${transportCount} ${sortingTransport[0]}`);
-
-    // console.log(sortingTransport);
-
-    let newArr = sortingTransport.splice(0, transportCount);
-
-
-    // console.log(sortingTransport);
-}while (transport.length >0);
+// do {
+//     let sortingTransport = transport.sort(function (a, b) {
+//         return a.localeCompare(b);
+//     });
+//
+//
+//     let transportCount = sortingTransport.reduce(function (total, current, index, array) {
+//         if (current === array[0]) {
+//             total++;
+//         }
+//         return total;
+//     }, 0);
+//     transportCount > 1 ? console.log(`There are ${transportCount} ${sortingTransport[0]}'s`) : console.log(`There are ${transportCount} ${sortingTransport[0]}`);
+//
+//     // console.log(sortingTransport);
+//
+//     let newArr = sortingTransport.splice(0, transportCount);
+//
+//
+//     // console.log(sortingTransport);
+// }while (transport.length >0);
