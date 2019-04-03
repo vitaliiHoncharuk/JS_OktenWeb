@@ -356,3 +356,14 @@ function generateNumber(min,max,numType,toFix)
 }
 
 
+const users = [{name: "Taras",surname:"Shevchenko",year : 1984},
+    {name: "Ananas",surname:"Shevchenko",year : 2000},
+    {name: "Oleh",surname:"Shevchenko",year : 2014},
+    {name: "Andriy",surname:"Shevchenko",year : 1994},
+    {name: "Vanya",surname:"Shevchenko",year : 1934},
+    {name: "Taras",surname:"Shevchenko",year : 1984},
+];
+let c = users.filter(function (el) {
+    return (el.name ==="Taras" && el.year ===1984);
+});
+console.log(c);
