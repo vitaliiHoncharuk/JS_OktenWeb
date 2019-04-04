@@ -179,22 +179,15 @@ class tag {
     }
 }
 
-let area = new tag("Area","area",
-    "Каждый элемент area определяет активные области изображения, которые являются ссылками",
-    "qwe",true,false);
-area.get();
-
 
 
 console.log(document.body.childNodes.length);
 for(let i=0; i< document.body.childNodes.length;i++){
     if (document.body.childNodes[i].nodeName !== "#text" && document.body.childNodes[i].nodeName !== "SCRIPT"){
         TAG_NAMES.push(document.body.childNodes[i].nodeName);
-        // arr[i].toLowerCase();
     }
 }
 
-console.log(TAG_NAMES);
 
 for (let i=0;i<TAG_NAMES.length;i++){
     TAG_NAMES[i]=TAG_NAMES[i].toLowerCase();
@@ -205,11 +198,11 @@ console.log(TAG_NAMES);
 // let obj = {};
 //
 // for (let i=0;i<TAG_TITLE_OF_ATTR.length;i++){
-//     for (let j=0;j<TAG_TITLE_OF_ATTR[i].length;j++){                                     <------ Як співставити?
-//         obj.TAG_TITLE_OF_ATTR[i][j] : TAG_ACTION_OF_ATTR[i][j];
+//     for (let j=0;j<TAG_TITLE_OF_ATTR[i].length;j++){
+//         obj[TAG_TITLE_OF_ATTR[i][j]] = TAG_ACTION_OF_ATTR[i][j];
 //     }
 // }
-//
+// console.log("--------------------------");
 // console.log(obj);
 
 
@@ -221,3 +214,12 @@ for (let i=0;i<TAG_NAMES.length;i++){
 }
 console.log(objArr);
 
+
+
+for (let i=0;i<TAG_TITLE_OF_ATTR.length;i++){
+    for (let j=0;j<TAG_TITLE_OF_ATTR[i].length;j++){
+        objArr[iе][TAG_TITLE_OF_ATTR[i][j]] = TAG_ACTION_OF_ATTR[i][j];
+    }
+}
+console.log("--------------------------");
+console.log(objArr);
