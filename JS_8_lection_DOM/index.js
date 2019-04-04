@@ -218,7 +218,7 @@ console.log(objArr);
 
 for (let i=0;i<TAG_TITLE_OF_ATTR.length;i++){
     for (let j=0;j<TAG_TITLE_OF_ATTR[i].length;j++){
-        objArr[iе][TAG_TITLE_OF_ATTR[i][j]] = TAG_ACTION_OF_ATTR[i][j];
+        objArr[i][TAG_TITLE_OF_ATTR[i][j]] = TAG_ACTION_OF_ATTR[i][j];
     }
 }
 console.log("--------------------------");
