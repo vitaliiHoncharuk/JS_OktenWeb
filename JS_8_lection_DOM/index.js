@@ -195,19 +195,9 @@ for (let i=0;i<TAG_NAMES.length;i++){
 console.log(TAG_NAMES);
 
 
-// let obj = {};
-//
-// for (let i=0;i<TAG_TITLE_OF_ATTR.length;i++){
-//     for (let j=0;j<TAG_TITLE_OF_ATTR[i].length;j++){
-//         obj[TAG_TITLE_OF_ATTR[i][j]] = TAG_ACTION_OF_ATTR[i][j];
-//     }
-// }
-// console.log("--------------------------");
-// console.log(obj);
-
 
 let objArr =[];
-// //generating obj
+// //generating Array of Objects
 for (let i=0;i<TAG_NAMES.length;i++){
     let myTag= new tag(TAG_NAMES[i],TAG_ACTION[i],TAG_TITLE_OF_ATTR[i],TAG_ACTION_OF_ATTR[i],TAG_UNIVERSAL_ATTR[i],CLOSING_TAG[i]);
     objArr.push(myTag);
