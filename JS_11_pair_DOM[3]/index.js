@@ -44,12 +44,18 @@ submitBtn.onclick = () => {
     let i = 0;
 
     let k = setInterval(() => {
-        textInput.value += arr[i];
-        i++;
         if (i === arr.length) {
             clearInterval(k);
             alert("Finished");
+            return;
         }
+        textInput.value += arr[i];
+
+
+        i++;
     }, 1000);
     k;
 };
+
+
+let sb = document.getElementById('sb'

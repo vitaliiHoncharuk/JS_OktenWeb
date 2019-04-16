@@ -1,0 +1,129 @@
+// Створити базу даних Країн всередині одну колекцію в якій зберігати назву, к-ть населеннь, чи є ядерна зброя і т д
+
+// записати всередину декілька документів
+
+// знайти
+
+// - всіх з ядерною зброєю
+// - де к-ть наслення > 5м
+// - 5 найбільших країн по площі
+// - 5 найменших країн по населенню
+// - всіх де є ядерна зброя або армія  кількістю > 100000
+// - всіх де є ядерна зброя і армія  кількістю > 100000
+
+// видалити найменшу країну
+
+// порахувати к-ть країн з ядерною зброєю і без неї(використовуючи групування)
+
+// порахувати населення всіх країн в яких є ядерна зброя(використовуючи групування)
+
+// встановити всім країнам армію в 0 чоловік і відібрати ядерну зброю
+----------------------------------------------------------------
+
+db.application.insert({"Country": "Ukraine", "population" : 4500000, "Square" : 603628,"Nuclear wepon" : true,"army":5443243});
+db.application.insert({"Country": "France", "population" : 643801, "Square" : 643801,"Nuclear wepon" : false,"army":544000});
+db.application.insert({"Country": "Italy", "population" : 6059000, "Square" : 301338,"Nuclear wepon" : false,"army":2312300});
+db.application.insert({"Country": "Russia", "population" : 14450000, "Square" : 17100000,"Nuclear wepon" : true,"army":100});
+db.application.insert({"Country": "Great Britain", "population" : 6604000, "Square" : 242495,"Nuclear wepon" : true,"army":200000});
+db.application.insert({"Country": "Spain", "population" : 4653000, "Square" : 505990,"Nuclear wepon" : false,"army":345000});
+db.application.insert({"Country": "USA", "population" : 327200000, "Square" : 9834000,"Nuclear wepon" : true,"army":250000});
+db.application.find().pretty();
+
+db.application.update({"Country":"Ukraine"},
+{$set : {"army":5443243}});
+
+db.application.remove({"Country" : "Spain"});
+
+
+
+task 1
+- всіх з ядерною зброєю
+db.application.find({"Nuclear wepon":true});
+
+
+task2 
+де к-ть наслення > 66м
+db.application.find({"population":{$gt:6604000}});
+
+task 3
+5 найбільших країн по площі
+db.application.find().sort({"Square":-1}).limit(5);
+
+task 4
+- 5 найменших країн по населенню
+
+db.application.find({"population":{$gt:1}},{"Country":true,"Square":true}).sort({"Square":1}).limit(5).pretty();
+
+
+task 5
+- всіх де є ядерна зброя або армія  кількістю > 100000
+
+db.application.find({
+    $or :[
+            {"Nuclear wepon":false},
+            {"army" : {$gt:100000}}
+        ]
+        },
+        {"Country":true,"Nuclear wepon":true,"army":true}).pretty();
+
+
+task 6
+- всіх де є ядерна зброя і армія  кількістю > 500000
+
+db.application.find({
+    $and :[
+            {"Nuclear wepon":true},
+            {"army" : {$gt:500000}}
+        ]
+        },
+        {"Country":true,"Nuclear wepon":true,"army":true}).pretty();
+
+
+task 7
+видалити найменшу країну
+db.application.remove({"Square" : {$lt:300000}});
+
+
+task8 
+порахувати к-ть країн з ядерною зброєю і без неї(використовуючи групування)
+db.application.aggregate([
+    {
+        $group : {
+            _id  : '$Nuclear wepon',
+            count : { $sum : 1}
+         }
+    }
+]);
+
+task 9 
+порахувати населення всіх країн в яких є ядерна зброя(використовуючи групування)
+
+
+
+db.application.aggregate([
+    {
+        $match: {
+             "Nuclear wepon" : true 
+        }
+    },
+    {
+        $group : {
+            _id: '$Nuclear wepon',
+            total: { $sum : "$population"}
+         }
+    }
+]);
+
+Task 10
+встановити всім країнам армію в 0 чоловік і відібрати ядерну зброю
+
+
+db.application.update({
+},
+{
+    $set : {"army":0},
+    $set : {"Nuclear wepon":false}
+},
+{
+    multi:true
+});
