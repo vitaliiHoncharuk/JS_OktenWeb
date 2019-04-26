@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61d3eaf8-4d6e-4cf2-989d-2ab07c824e1b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../JS_12_lection_BOM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JS_12_lection_BOM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Node_3_lection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Node_3_lection/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/newfile11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/newfile12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/newfile13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/newfile15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/newfile8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_4_pair/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Node_4_pair/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Node_6_pair/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node_6_pair/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/Node_6_pair/public/index.html" />
+        <option value="$PROJECT_DIR$/Node_6_pair/app.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="719" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NodeJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NodeJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Node_6_pair" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Node_6_pair/public" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.app.js">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Node_6_pair/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61d3eaf8-4d6e-4cf2-989d-2ab07c824e1b" name="Default Changelist" comment="" />
+      <created>1556206626995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556206626995</updated>
+      <workItem from="1556206628479" duration="1090000" />
+      <workItem from="1556207895999" duration="2018000" />
+      <workItem from="1556218654052" duration="1205000" />
+      <workItem from="1556268427567" duration="1451000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5764000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="719" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3294509" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294702" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32781458" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.js" />
+    <entry file="file://$PROJECT_DIR$/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/routes/index.js" />
+    <entry file="file://$PROJECT_DIR$/routes/users.js" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/package.json" />
+    <entry file="file://$PROJECT_DIR$/Node_6_pair/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node_6_pair/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

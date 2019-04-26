@@ -3,9 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="c1564106-c38a-47a2-9efb-69c99949fd18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../JS_12_lection_BOM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS_12_lection_BOM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Node_1_lection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Node_1_lection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Node_1_lection/getFilteredArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Node_1_lection/getFilteredArray.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Node_1_lection/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RenamedFileHERE1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RenamedFileHERE10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RenamedFileHERE11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RenamedFileHERE12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RenamedFileHERE13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RenamedFileHERE14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RenamedFileHERE15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RenamedFileHERE2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RenamedFileHERE3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RenamedFileHERE4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RenamedFileHERE6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RenamedFileHERE7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RenamedFileHERE8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RenamedFileHERE9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/newfile11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/newfile12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/newfile13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/newfile15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/newfile8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Node_4_pair/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Node_4_pair/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="56" column="70" selection-start-line="56" selection-start-column="70" selection-end-line="56" selection-end-column="70" />
+            <state relative-caret-position="235">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -54,6 +73,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -70,7 +90,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -108,16 +127,16 @@
       <workItem from="1556037240634" duration="1577000" />
       <workItem from="1556039336740" duration="124000" />
       <workItem from="1556039742008" duration="1803000" />
-      <workItem from="1556082667788" duration="519000" />
+      <workItem from="1556082667788" duration="2244000" />
+      <workItem from="1556205126550" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12076000" />
+    <option name="totallyTimeSpent" value="13835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="719" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -184,9 +203,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE3.txt" />
-    <entry file="file://$PROJECT_DIR$/files/newfile6.txt" />
-    <entry file="file://$PROJECT_DIR$/files/newfile9.txt" />
     <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE5.txt" />
     <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE4.txt" />
     <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE4 2.txt" />
@@ -194,40 +210,32 @@
     <entry file="file://$PROJECT_DIR$/files/newfile10 2.txt" />
     <entry file="file://$PROJECT_DIR$/files/newfile12.txt" />
     <entry file="file://$PROJECT_DIR$/files/newfile10.txt" />
-    <entry file="file://$PROJECT_DIR$/files/newfile15.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/files/newfile15.txt" />
     <entry file="file://$PROJECT_DIR$/files/newfile14.txt" />
-    <entry file="file://$PROJECT_DIR$/files/newfile4.txt" />
+    <entry file="file://$PROJECT_DIR$/files/newfile8.txt" />
+    <entry file="file://$PROJECT_DIR$/files/newfile13.txt" />
+    <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE6.txt" />
+    <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE2.txt" />
+    <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE8.txt" />
+    <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE12.txt" />
+    <entry file="file://$PROJECT_DIR$/files/newfile6.txt" />
+    <entry file="file://$PROJECT_DIR$/files/newfile9.txt" />
+    <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE11.txt" />
+    <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE14.txt" />
     <entry file="file://$PROJECT_DIR$/files/newfile1.txt" />
-    <entry file="file://$PROJECT_DIR$/files/newfile8.txt">
+    <entry file="file://$PROJECT_DIR$/files/newfile11.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/newfile13.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE6.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE2.txt">
+    <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE3.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE7.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE8.txt">
+    <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE9.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE10.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE11.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE12.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE14.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE13.txt">
@@ -236,13 +244,13 @@
     <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE15.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/RenamedFileHERE9.txt">
+    <entry file="file://$PROJECT_DIR$/files/newfile4.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="56" column="70" selection-start-line="56" selection-start-column="70" selection-end-line="56" selection-end-column="70" />
+        <state relative-caret-position="235">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="21" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
