@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61d3eaf8-4d6e-4cf2-989d-2ab07c824e1b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../JS_12_lection_BOM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JS_12_lection_BOM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Node_3_lection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Node_3_lection/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Node_3_lection/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE14.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE15.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/RenamedFileHERE9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/newfile11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/newfile12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/newfile13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/newfile15.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node_3_lection/files/newfile8.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Node_4_pair/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Node_4_pair/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_6_pair/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Node_6_pair/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,12 +19,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Node_6_pair/app.js">
+        <entry file="file://$PROJECT_DIR$/Node_4_pair/app.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node_3_lection/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="20" selection-end-column="23" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node_5_lection/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node_4_pair/Public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node_4_pair/Public/pet-form.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node_4_pair/Public/user-form.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -57,6 +77,21 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/Node_4_pair/Public</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -69,6 +104,10 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/Node_6_pair/public/index.html" />
         <option value="$PROJECT_DIR$/Node_6_pair/app.js" />
+        <option value="$PROJECT_DIR$/Node_3_lection/app.js" />
+        <option value="$PROJECT_DIR$/Node_4_pair/Public/style.css" />
+        <option value="$PROJECT_DIR$/Node_4_pair/Public/index.html" />
+        <option value="$PROJECT_DIR$/Node_5_lection/app.js" />
       </list>
     </option>
   </component>
@@ -94,7 +133,18 @@
             <path>
               <item name="NodeJS" type="b2602c69:ProjectViewProjectNode" />
               <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
-              <item name="Node_6_pair" type="462c0819:PsiDirectoryNode" />
+              <item name="Node_3_lection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NodeJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Node_4_pair" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NodeJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Node_4_pair" type="462c0819:PsiDirectoryNode" />
+              <item name="Public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -105,6 +155,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -128,12 +179,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.app.js">
+  <component name="RunManager" selected="Node.js.app.js (1)">
+    <configuration name="app.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Node_5_lection/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Node_6_pair/app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.app.js (1)" />
         <item itemvalue="Node.js.app.js" />
       </list>
     </recent_temporary>
@@ -151,12 +206,17 @@
       <workItem from="1556206628479" duration="1090000" />
       <workItem from="1556207895999" duration="2018000" />
       <workItem from="1556218654052" duration="1205000" />
-      <workItem from="1556268427567" duration="1451000" />
+      <workItem from="1556268427567" duration="2407000" />
+      <workItem from="1556271634208" duration="197000" />
+      <workItem from="1556273149213" duration="4116000" />
+      <workItem from="1556309358974" duration="150000" />
+      <workItem from="1556353980306" duration="414000" />
+      <workItem from="1556381437366" duration="3572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5764000" />
+    <option name="totallyTimeSpent" value="15169000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -171,21 +231,21 @@
     <frame x="0" y="23" width="1280" height="719" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21604449" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3294509" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900663" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294702" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32781458" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24668874" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -201,6 +261,22 @@
     <entry file="file://$PROJECT_DIR$/routes/users.js" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/package.json" />
+    <entry file="file://$PROJECT_DIR$/Node_4_pair/Public/user-form.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node_4_pair/Public/pet-form.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node_4_pair/Public/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node_6_pair/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Node_6_pair/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -208,12 +284,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Node_6_pair/app.js">
+    <entry file="file://$PROJECT_DIR$/Node_4_pair/Public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node_3_lection/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node_5_lection/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node_4_pair/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

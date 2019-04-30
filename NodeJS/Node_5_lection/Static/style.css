@@ -1,0 +1,10 @@
+form {
+    font-style: italic;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    color: #ff3333;
+}

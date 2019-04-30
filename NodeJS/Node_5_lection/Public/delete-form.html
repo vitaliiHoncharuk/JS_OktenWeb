@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete-form</title>
+</head>
+<body>
+<!--GET /delete-form-->
+<!--повертатиме сторінку на якій буде POST форма з полями:-->
+<!--file-->
+<!--при submit надсилатиме дані на POST /delete-file-->
+<form action="/delete-file" method="post">
+    <label for="file">File to delete : </label>
+    <input type="text" name="file" id="file">
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
