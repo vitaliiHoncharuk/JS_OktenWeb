@@ -5,15 +5,40 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Wbobm social network!</title>
+    <link rel="stylesheet" href="../main/index.css">
 </head>
 <body>
-<form action="/user" method="post">
-    <label for="login">login</label>
-    <input type="text" name="login" id="login" required>
-    <label for="password">password</label>
-    <input type="password" name="password" id="password" required>
-    <input type="submit">
-</form>
+<!--<form action="/user" method="post">-->
+<!--<label for="login">login</label>-->
+<!--<input type="text" name="login" id="login" required>-->
+<!--<label for="password">password</label>-->
+<!--<input type="password" name="password" id="password" required>-->
+<!--<input type="submit">-->
+<!--</form>-->
+<div class="user">
+    <header class="user__header">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3219/logo.svg" alt="" />
+        <h1 class="user__title">Hello, Bratishka! Register yourself ASAP!</h1>
+    </header>
+
+    <form class="form" action="/user" method="post">
+        <div class="form__group">
+            <input type="text" placeholder="Username" class="form__input" name="login" />
+        </div>
+
+        <div class="form__group">
+            <input type="email" placeholder="Email" name="mail" class="form__input" />
+        </div>
+
+        <div class="form__group">
+            <input type="password" placeholder="Password" name="password" class="form__input" />
+        </div>
+        <input type="submit" class="btn" value="Register">
+        <a href="/users" data-title="All users" ></a>
+        <a href="/search" data-title="Search"></a>
+    </form>
+</div>
+<script src="../main/script.js"></script>
 </body>
 </html>
