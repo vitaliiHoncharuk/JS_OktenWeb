@@ -133,12 +133,9 @@ let george:Client =  myBank.findUser("George");
 
 
 
-console.log("Before adding money : ");
-console.log(george);
-console.log(myBank);
 
 myBank.addUserMoney(george.name,25000);
 
-console.log("After adding money : ");
+
 console.log(george);
 console.log(myBank);

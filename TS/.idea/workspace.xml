@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8c6d368-20f7-4e93-8c86-8015bb17737b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../NodeJS/Node_6_pair/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeJS/Node_6_pair/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeJS/Node_6_pair/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeJS/Node_6_pair/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeJS/Node_6_pair/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeJS/Node_6_pair/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeJS/Node_6_pair/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeJS/Node_6_pair/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeJS/Node_6_pair/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeJS/Node_6_pair/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeJS/Node_7_SessionPassport/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeJS/Node_7_SessionPassport/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeJS/Node_7_SessionPassport/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeJS/Node_7_SessionPassport/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeJS/Node_7_passport+session/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
-              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+            <state relative-caret-position="176">
+              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -34,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classTask.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="358">
@@ -60,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/task.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="7" selection-end-line="21" />
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -146,12 +139,12 @@
       <updated>1559043476995</updated>
       <workItem from="1559043478347" duration="864000" />
       <workItem from="1559055473427" duration="5085000" />
-      <workItem from="1559067235834" duration="5905000" />
+      <workItem from="1559067235834" duration="6206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11854000" />
+    <option name="totallyTimeSpent" value="12155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="716" extended-state="0" />
@@ -205,18 +198,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/task.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="7" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -233,6 +216,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
