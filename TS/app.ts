@@ -71,31 +71,22 @@ class Bank {
     }
 
     addUserMoney(clientName: string, sum: number) {
-        this.minusCash(sum);
-        if (this.Cash < 0 || sum < 0 || this.findUser(clientName) === undefined) {
+        if (this.Cash - sum < 0 || sum < 0 || this.findUser(clientName) === undefined) {
             console.log("Sorry,some shit happend. Check inputs, if everything ok - bank has no money to afford it.");
-            this.addCash(sum);
         } else {
+            this.minusCash(sum);
             this.findUser(clientName).cash += sum;
             console.log(`Transaction successfull! ${sum} were added to ${clientName} `);
         }
     }
 
     minusUserMoney(clientName: string, sum: number): void {
-        if (this.findUser(clientName) === undefined || sum < 0) console.log("No user with such name or sum is unapropriate");
+        if (this.findUser(clientName) === undefined || sum < 0 || this.Cash - sum < 0 || this.findUser(clientName).cash - sum < 0)
+            console.log("Bad input, or someone has not enough money");
         else {
-            this.minusCash(sum);
-            if (this.Cash < 0) {
-                console.log("Sorry,bank lost all your money,can't give them back to you... Now we're bankrupts");
-                this.addCash(sum);
-            } else {
-                this.findUser(clientName).cash -= sum;
-                if (this.findUser(clientName).cash < 0) {
-                    console.log("Some shit happend, user has not enough money...");
-                    this.findUser(clientName).cash += sum;
-                } else
+                    this.minusCash(sum);
+                    this.findUser(clientName).cash -= sum;
                     console.log(`Transaction successfull! ${sum} were subtracted from ${clientName} `);
-            }
         }
     }
 
