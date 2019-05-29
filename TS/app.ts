@@ -64,7 +64,7 @@ class Bank {
         this.Clients.push(client);
     }
 
-    findUser(clientName: string): (Client) {
+    findUser(clientName: string): Client {
         return this.Clients.find(el => {
             return el.name === clientName
         });
