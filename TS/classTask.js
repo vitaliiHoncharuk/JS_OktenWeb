@@ -46,8 +46,8 @@ var MARKS = ["Honda", "Mersedes", "Maybah", "BMW", "Fiat", "Kia", "Porshe", "Vol
 var OWNER_names = ["Vitalii", "Oleksiy", "Tanya", "Olenka", "Oleg", "Vitya", "Volodya", "Roman", "Viktor", "Sadam"];
 var SuperCar = /** @class */ (function (_super) {
     __extends(SuperCar, _super);
-    function SuperCar(mark, engine, price, year, ownerName, ownerAge, ownerExperience) {
-        var _this = _super.call(this, mark, engine, price, year) || this;
+    function SuperCar(Car, ownerName, ownerAge, ownerExperience) {
+        var _this = _super.call(this, Car.mark, Car.engine, Car.price, Car.year) || this;
         _this.ownerName = ownerName;
         return _this;
     }
@@ -56,41 +56,6 @@ var SuperCar = /** @class */ (function (_super) {
 var myCar = new Car(MARKS[1], 3.0, 15, 1995);
 console.log(myCar);
 myCar.getInfo();
-var MySuperCar = new SuperCar(MARKS[1], 3.0, 15, 1995, "Vitalii", 23, 3);
-console.log(MySuperCar);
-// class Car1  {
-//     constructor(public mark:string,protected engine:number,protected price:number,protected year?:number){
-//     }
-//     getInfo():void{
-//         console.log("The car model is "+ this.mark+", with "+this.engine+", "+this.year+" year and it's price is "+this.price+" $");
-//     }
-// }
-console.log(Object.keys(myCar));
-// class SuperCar1 extends Car{
-//     constructor(car,public ownerName:string,ownerAge:number,ownerExperience:number){
-//         super(car);
-//     }
-// }
-// function generateArrayfrom(numberToGenerate:number,minNumber:number,maxNumber:number):any {
-//
-// }
-// function generateNumber(min:number,max:number,numType:string,toFix:number)
-// {
-//
-//     let num = Math.floor(Math.random() * (max - min)+min);
-//     if (toFix > 0) num = +num.toFixed(toFix);
-//     if (numType === "even") {
-//         num +=  min;
-//         if ((num % 2) === 0) {
-//             return num + 1;
-//         } else {
-//             return num;
-//         }
-//     }
-//     else if(numType === "odd"){
-//         num *= 2;
-//         return num;
-//     }
-//     else
-//         return num;
-// }
+//отут замість MARKS[1],3.0,15,1995 я хотів щоб просто можна було написати типу myCar
+var mySuperCar = new SuperCar(myCar, "Vitalii", 23, 3);
+console.log(mySuperCar);

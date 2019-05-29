@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8c6d368-20f7-4e93-8c86-8015bb17737b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/classTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/classTask.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classTask.ts" beforeDir="false" afterPath="$PROJECT_DIR$/classTask.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classTask.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="41" column="113" selection-start-line="41" selection-start-column="113" selection-end-line="41" selection-end-column="113" />
+            <state relative-caret-position="290">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -139,18 +140,18 @@
       <updated>1559043476995</updated>
       <workItem from="1559043478347" duration="864000" />
       <workItem from="1559055473427" duration="5085000" />
-      <workItem from="1559067235834" duration="6921000" />
+      <workItem from="1559067235834" duration="7841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12870000" />
+    <option name="totallyTimeSpent" value="13790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -163,7 +164,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3294509" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3294509" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3294509" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -224,8 +225,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classTask.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="41" column="113" selection-start-line="41" selection-start-column="113" selection-end-line="41" selection-end-column="113" />
+        <state relative-caret-position="290">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

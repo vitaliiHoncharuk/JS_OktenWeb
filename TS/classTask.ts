@@ -31,8 +31,8 @@ const OWNER_names:string[] = ["Vitalii","Oleksiy","Tanya","Olenka","Oleg","Vitya
 
 
 class SuperCar extends Car{
-    constructor(mark,engine,price,year,public ownerName:string,ownerAge:number,ownerExperience:number){
-        super(mark,engine,price,year);
+    constructor(Car,public ownerName:string,ownerAge:number,ownerExperience:number){
+        super(Car.mark,Car.engine,Car.price,Car.year);
     }
 
 }
@@ -40,5 +40,5 @@ let myCar:any = new Car(MARKS[1],3.0,15,1995);
 console.log(myCar);
 myCar.getInfo();
                             //отут замість MARKS[1],3.0,15,1995 я хотів щоб просто можна було написати типу myCar
-let MySuperCar = new SuperCar(MARKS[1],3.0,15,1995,"Vitalii",23,3);
-console.log(MySuperCar);
+let mySuperCar = new SuperCar(myCar,"Vitalii",23,3);
+console.log(mySuperCar);
