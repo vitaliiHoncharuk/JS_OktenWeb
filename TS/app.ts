@@ -50,42 +50,38 @@ class Bank {
 
     }
 
-    addCash(cash: number) {
-        if ( cash > 0 ) 
-        this.Cash += cash;
+    addCash(cash: number): void {
+        if (cash > 0)
+            this.Cash += cash;
     }
 
-    minusCash(cash: number) {
-        if ( cash > 0 )
+    minusCash(cash: number): void {
+        if (cash > 0)
             this.Cash -= cash;
     }
 
-    addUser(client: Client) {
+    addUser(client: Client): void {
         this.Clients.push(client);
     }
 
-    findUser(clientName: string) {
-        let foundUser = this.Clients.find(el => {
+    findUser(clientName: string): (Client) {
+        return this.Clients.find(el => {
             return el.name === clientName
         });
-        if (foundUser != undefined) return foundUser;
-        else console.log("No user with such name,sorry");
     }
 
     addUserMoney(clientName: string, sum: number) {
         this.minusCash(sum);
-        if (this.Cash < 0 || sum < 0) {
-            console.log("Sorry,bank has not enough money to afford this or sum is less than 0");
+        if (this.Cash < 0 || sum < 0 || this.findUser(clientName) === undefined) {
+            console.log("Sorry,some shit happend. Check inputs, if everything ok - bank has no money to afford it.");
             this.addCash(sum);
-        } else if (this.findUser(clientName) === undefined) console.log("No user with such name,sorry...");
-        else {
+        } else {
             this.findUser(clientName).cash += sum;
             console.log(`Transaction successfull! ${sum} were added to ${clientName} `);
         }
     }
 
-    minusUserMoney(clientName: string, sum: number) {
-        console.log(this.findUser(clientName));
+    minusUserMoney(clientName: string, sum: number): void {
         if (this.findUser(clientName) === undefined || sum < 0) console.log("No user with such name or sum is unapropriate");
         else {
             this.minusCash(sum);
@@ -94,12 +90,11 @@ class Bank {
                 this.addCash(sum);
             } else {
                 this.findUser(clientName).cash -= sum;
-               if(this.findUser(clientName).cash < 0) {
-                   console.log("Some shit happend, user has not enough money...");
-                   this.findUser(clientName).cash += sum;
-               }
-               else
-                console.log(`Transaction successfull! ${sum} were subtracted from ${clientName} `);
+                if (this.findUser(clientName).cash < 0) {
+                    console.log("Some shit happend, user has not enough money...");
+                    this.findUser(clientName).cash += sum;
+                } else
+                    console.log(`Transaction successfull! ${sum} were subtracted from ${clientName} `);
             }
         }
     }
@@ -128,13 +123,10 @@ myBank.addUser(secondClient);
 
 // console.log(myBank.findUser("qwe"));
 
-let george:Client =  myBank.findUser("George");
+let george: Client = myBank.findUser("George");
 
 
-
-
-
-myBank.addUserMoney(george.name,25000);
+myBank.addUserMoney(george.name, 25000);
 
 
 console.log(george);
