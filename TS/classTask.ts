@@ -39,51 +39,6 @@ class SuperCar extends Car{
 let myCar:any = new Car(MARKS[1],3.0,15,1995);
 console.log(myCar);
 myCar.getInfo();
+                            //отут замість MARKS[1],3.0,15,1995 я хотів щоб просто можна було написати типу myCar
 let MySuperCar = new SuperCar(MARKS[1],3.0,15,1995,"Vitalii",23,3);
 console.log(MySuperCar);
-
-
-
-
-// class Car1  {
-//     constructor(public mark:string,protected engine:number,protected price:number,protected year?:number){
-//     }
-//     getInfo():void{
-//         console.log("The car model is "+ this.mark+", with "+this.engine+", "+this.year+" year and it's price is "+this.price+" $");
-//     }
-// }
-//
-// console.log(Object.keys(myCar));
-// class SuperCar1 extends Car{
-//     constructor(Object.keys(myCar),public ownerName:string,ownerAge:number,ownerExperience:number){
-//         super(Object.keys(myCar));
-//     }
-// }
-
-
-
-
-
-// function generateArrayfrom(numberToGenerate:number,minNumber:number,maxNumber:number):any {
-//
-// }
-// function generateNumber(min:number,max:number,numType:string,toFix:number)
-// {
-//
-//     let num = Math.floor(Math.random() * (max - min)+min);
-//     if (toFix > 0) num = +num.toFixed(toFix);
-//     if (numType === "even") {
-//         num +=  min;
-//         if ((num % 2) === 0) {
-//             return num + 1;
-//         } else {
-//             return num;
-//         }
-//     }
-//     else if(numType === "odd"){
-//         num *= 2;
-//         return num;
-//     }
-//     else
-//         return num;
-// }
