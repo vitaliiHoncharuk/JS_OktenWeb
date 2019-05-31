@@ -14,3 +14,9 @@
   </ul>
 </div>
 
+<input type="submit" class="btn" (click)="showInput()" value="Register">
+<form action="POST" *ngIf="toShow">
+    <input type="text" name="name" placeholder="name">
+    <input type="password" name="password" placeholder="password">
+    <input type="text" name="email" placeholder="email">
+</form>

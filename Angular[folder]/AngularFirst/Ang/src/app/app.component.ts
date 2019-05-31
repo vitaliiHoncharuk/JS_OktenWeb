@@ -7,7 +7,8 @@ import {CookieService} from 'angular2-cookie/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  constructor(protected _cookieService: CookieService) {}
+  constructor(private _cookieService: CookieService) {}
+  toShow = false;
   isLogin = this.setCookie('isLogin', 'true');
   names: User[] = [Vitalik, Tanya, Vika, Alex, Mike, John, Dasha];
   changeCookie(): void {
@@ -21,6 +22,10 @@ export class AppComponent {
   }
   getObj(key: string) {
     return this._cookieService.getObject(key);
+  }
+  showInput(): void {
+    console.log(this.toShow);
+    this.toShow ? this.toShow = false : this.toShow = true;
   }
 }
 export interface User {
@@ -49,7 +54,7 @@ const Vika: User = {
   login: 'vikusa123',
   name : 'Viktoria',
   password: 'qwerty123',
-  mail: 'viktoriaPushka@gmail.com',
+  mail: 'viktori@gmail.com',
   photo: '../assets/Photos/3.jpg'
 };
 const Alex: User = {
@@ -64,7 +69,7 @@ const Mike: User = {
   login: 'Michael',
   name : 'Mike',
   password: 'wutitiputi123',
-  mail: 'wutitiputi123@gmail.com',
+  mail: 'wutit123@gmail.com',
   photo: '../assets/Photos/5.png'
 };
 const John: User = {
