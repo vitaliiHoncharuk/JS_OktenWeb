@@ -2,14 +2,14 @@
 <div class="container" *ngIf="getObj('isLogin')">
   <ul>
     <li *ngFor="let user of names">
-      <p> {{user.name}}
-        <br>
-       Login: {{user.login}}
-        <br>
-        Mail : {{user.mail}}
-        Password  : {{user.password}}
-        <br>
-        <button class="btn2" (click)="addToFriend(user)">Add</button></p>
+          <img [src]='user.photo' alt="photo">
+          <h3>{{user.name}}</h3>
+          <div class="info__block">
+              <p><span>Login</span> : {{user.login}}</p>
+              <p><span>Mail</span> : {{user.mail}}</p>
+              <p><span>Password</span> : {{user.password}}</p>
+          </div>
+        <button class="btn-3" (click)="addToFriend(user)"><span>Add to friend</span></button>
     </li>
   </ul>
 </div>
