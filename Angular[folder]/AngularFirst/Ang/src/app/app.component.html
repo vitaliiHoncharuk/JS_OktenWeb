@@ -1,8 +1,16 @@
 <input type="submit" value="Hide | show" (click)="changeCookie()" class="btn">
 <div class="container" *ngIf="getObj('isLogin')">
   <ul>
-    <li *ngFor="let name of names">
-      <p>{{name}} <button class="btn2" (click)="addToFriend(name)">Add</button></p>
+    <li *ngFor="let user of names">
+      <p> {{user.name}}
+        <br>
+       Login: {{user.login}}
+        <br>
+        Mail : {{user.mail}}
+        Password  : {{user.password}}
+        <br>
+        <button class="btn2" (click)="addToFriend(user)">Add</button></p>
     </li>
   </ul>
 </div>
+
