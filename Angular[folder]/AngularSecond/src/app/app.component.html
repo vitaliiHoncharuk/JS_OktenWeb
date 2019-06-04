@@ -1,0 +1,51 @@
+{{change | date:'medium'}}
+<br>
+<button (click)="Again()">Start Day Again</button>
+<br>
+<label>Set hours:
+  <input type="text" name="hours" ngModel #hours >
+</label>
+<br>
+<label> Minutes :
+  <input type="text" name="minutes" ngModel #minutes >
+</label>
+<br>
+<label> Seconds :
+  <input type="text" name="seconds" ngModel #seconds >
+</label>
+<br>
+<input type="submit" (click)="store(hours,minutes,seconds)" value="Change Time">
+<hr>
+<br>
+{{null | defaultpipe:'defaultPipe'}} | expected : defaultPipe
+<br>
+{{'xxx' | defaultpipe:'default'}} | expected : xxx
+<hr>
+
+
+<form #myForm="ngForm" (submit)="sendData(myForm)">
+  <label>Name:
+    <input type="text" name="name" ngModel required>
+  </label>
+  <br>
+ <label>Wood:
+    <input type="text" name="wood" ngModel required>
+  </label>
+  <br>
+ <label>Age:
+    <input type="number" name="age" ngModel required>
+  </label>
+  <br>
+  <input type="submit"  value="Add Unicorn to forest">
+</form>
+<hr>
+<div>
+  <h2>All unicorns are here : </h2>
+  <li *ngFor="let unicorn of Unicorns">
+    The {{unicorn.name}} is {{unicorn.age}} y.o. and lives in {{unicorn.wood}}!
+  </li>
+</div>
+<hr>
+<div *ngFor="let num of numbers" style="display: inline-block;" >
+  <app-counter [initialNumber]="num" (onKickFather)="kickFather($event)"></app-counter>
+</div>

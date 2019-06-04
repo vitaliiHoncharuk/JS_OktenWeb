@@ -1,4 +1,8 @@
+@import "~colors.css";
+
+
 * {margin: 0; padding: 0;}
+
 
 div {
   margin-left: 10px;
@@ -25,9 +29,12 @@ ul li img{
   align-self: center;
   max-width: 150px;
   border-radius: 200px;
-  -webkit-box-shadow: 0px 0px 45px 95px rgba(192,165,250,1);
-  -moz-box-shadow: 0px 0px 45px 95px rgba(192,165,250,1);
-  box-shadow: 0px 0px 45px 95px rgba(192,165,250,1);
+  -webkit-box-shadow: 0px 0px 45px 95px #ee9ca7;
+  -moz-box-shadow: 0px 0px 45px 95px #ee9ca7;
+  box-shadow: 0px 0px 45px 95px #ee9ca7;
+  /*-webkit-box-shadow: 0px 0px 45px 95px rgba(192,165,250,1);*/
+  /*-moz-box-shadow: 0px 0px 45px 95px rgba(192,165,250,1);*/
+  /*box-shadow: 0px 0px 45px 95px rgba(192,165,250,1);*/
 
 }
 ul li h3{
@@ -40,7 +47,7 @@ ul li p {
 }
 
 li:hover {
-  background: rgba(192,165,250,1);
+  background: #ffdde1;
   color: #b300a7;
 }
 .btn{

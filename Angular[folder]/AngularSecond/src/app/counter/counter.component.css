@@ -1,0 +1,15 @@
+div{
+  margin: 5px;
+  padding: 15px;
+  border: 1px solid black;
+  display: inline-block;
+}
+div span{
+  margin-left: 25px;
+  padding: 5px;
+}
+div button{
+  margin-top: 10px;
+  font-weight: bold;
+  width: 40px;
+}

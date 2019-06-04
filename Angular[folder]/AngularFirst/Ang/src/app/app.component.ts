@@ -11,6 +11,7 @@ export class AppComponent {
   toShow = false;
   isLogin = this.setCookie('isLogin', 'true');
   names: User[] = [Vitalik, Tanya, Vika, Alex, Mike, John, Dasha];
+
   changeCookie(): void {
     this.getObj('isLogin') ? this.setCookie('isLogin', 'false') : this.setCookie('isLogin', 'true');
   }
@@ -28,6 +29,8 @@ export class AppComponent {
     this.toShow ? this.toShow = false : this.toShow = true;
   }
 }
+
+
 export interface User {
   login: string;
   name: string;
