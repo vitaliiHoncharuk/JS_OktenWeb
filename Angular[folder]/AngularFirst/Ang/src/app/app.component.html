@@ -1,4 +1,4 @@
-<input type="submit" value="Hide | show" (click)="changeCookie()" class="btn">
+<input type="submit" value="Show Users" (click)="changeCookie()" class="btn">
 <div class="container" *ngIf="getObj('isLogin')">
   <ul>
     <li *ngFor="let user of names">
@@ -13,10 +13,8 @@
     </li>
   </ul>
 </div>
+<input type="submit" value="REGISTER" (click)="toShow()" class="btn">
+<div *ngIf="show" ><app-login-form></app-login-form></div>
 
-<input type="submit" class="btn" (click)="showInput()" value="Register">
-<form action="POST" *ngIf="toShow">
-    <input type="text" name="name" placeholder="name">
-    <input type="password" name="password" placeholder="password">
-    <input type="text" name="email" placeholder="email">
-</form>
+
+

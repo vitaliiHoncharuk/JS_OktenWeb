@@ -1,0 +1,16 @@
+<form class="form-style-9" #myForm="ngForm" (ngSubmit)="sendForm(myForm)" >
+  <ul>
+    <li>
+      <input type="text" name="name" class="field-style field-split align-left" placeholder="Name" ngModel required minlength="4"/>
+      <input type="email" name="email" class="field-style field-split align-right" placeholder="Email" ngModel email/>
+    </li>
+    <li>
+      <input type="password" name="passwordFirst" class="field-style field-split align-left" placeholder="Password" ngModel required minlength="8"/>
+      <input type="password" name="passwordSecond" class="field-style field-split align-right" placeholder="Re-enter password" ngModel required minlength="8"/>
+    </li>
+    <li>
+      <input type="submit" value="Register" class="field-full" [disabled]="myForm.invalid"/>
+      <p *ngIf="myForm.valid && myForm.value.passwordFirst === myForm.value.passwordSecond" style="align-items: center">Everything is valid!</p>
+    </li>
+  </ul>
+</form>
